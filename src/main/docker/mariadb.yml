@@ -1,0 +1,13 @@
+version: '2'
+services:
+    smscenter-mariadb:
+        container_name: smscenter-mariadb
+        image: mariadb:10.1.16
+        # volumes:
+        #     - ~/volumes/jhipster/smsCenter/mysql/:/var/lib/mysql/
+        environment:
+            - MYSQL_USER=root
+            - MYSQL_ALLOW_EMPTY_PASSWORD=yes
+            - MYSQL_DATABASE=smscenter
+        ports:
+            - 3306:3306
