@@ -1,6 +1,6 @@
 # Asanak SMS
 
-Implement [Asanak][] SOAP web service with Spring
+Consume [Asanak][] SOAP web service with Spring
 
 ## Development
 
